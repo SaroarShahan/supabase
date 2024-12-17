@@ -1,0 +1,58 @@
+{
+  "name": "Supabase",
+  "private": true,
+  "version": "1.2.0",
+  "author": {
+    "name": "Saroar Hossain Shahan",
+    "email": "saroar.shahan@gmail.com",
+    "url": "https://shahansdiary.com/"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier -c -w src/**/*",
+    "format:check": "prettier -c src/**/*",
+    "lint": "tsc && eslint \"src/**/*.{ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{ts,tsx}\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@supabase/supabase-js": "^2.47.8",
+    "antd": "^5.13.0",
+    "dayjs": "^1.11.10",
+    "nprogress": "^0.2.0",
+    "polished": "^4.2.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-icons": "^5.4.0",
+    "react-query": "^3.39.1",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.21.1",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "@types/react-redux": "^7.1.24",
+    "@types/styled-components": "^5.1.25",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.15.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.6.2",
+    "typescript": "^5.3.3",
+    "vite": "^4.3.9",
+    "vite-plugin-svgr": "^3.2.0",
+    "vite-plugin-tsconfig-paths": "^1.3.1"
+  }
+}
